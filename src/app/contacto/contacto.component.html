@@ -1,0 +1,41 @@
+<div class="container-fluid" style="">
+    <div style="" class="container">
+        <div class="row">
+                <div class="col-md-3  p-2">
+              <img src="../../assets/images/campanil.svg">                        
+                                </div>
+                        
+                <div id="contact-form"  class="col-md-9 vertical-centro text-center">
+                    <h1 class="rakkas">Hablemos de negocios</h1>
+                      <form name="form" method="post" >
+                    <div class="contact-wrapper montserrat p-4 " >
+                          ¡Hola! Me llamo
+                           <input  [(ngModel)]="name" class="input-simple "type="text" name="name" id="form-name"
+                           (input)="validateName()"
+                           placeholder="Lorem Ipsum" [disabled]="!enabledInputs">
+                          <br>Me pueden escribir a mi correo
+                         
+                          <input  [(ngModel)]="email" (input)="validateEmail()" class="input-simple " type="email" name="email" id="email" placeholder="dolor@sit.amet"
+                          [disabled]="!enabledInputs">
+                       <br>
+                       <button  id="ok-contact-btn" class="btn btn-primary btn-sm mt-2" (click)= "enablerButton()" type="button"
+                        [disabled]= "enablerButtonState " > {{okbtntext}} </button>
+                      <!-- <span  style="font-size: 0.5em" class="text-muted">Verifica que tu correo tenga el formato correcto </span>-->
+                    </div>
+
+                    <div style="height:0;" id="message-wrapper" class="contact-wrapper montserrat  mt-4 " >
+                        
+                        <div style="opacity: 0; height:auto;" id="msg-content">
+                        Cuéntanos lo que tienes en mente<br>
+                      <textarea (input)="validateMsg()"  [(ngModel)]="message"  class="txtarea" name="msg" id="msg" cols="auto" rows="5" maxlength="480"></textarea><br>
+                      
+                          <button  id="submit" [disabled]="!flag" class="btn btn-primary " (click)= "submit()" type="submit" >Enviar</button>
+                        </div>
+                      </div>
+                 </form>
+                </div>
+        </div>
+
+    </div>
+
+</div>

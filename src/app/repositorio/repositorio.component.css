@@ -1,0 +1,14 @@
+.box{
+    background:white;
+    border-radius: 20px;
+    transition: all 0.3s ;
+    overflow: hidden;
+}
+
+.icon{
+    width: 50%;
+}
+
+.box:hover{
+    transform: scale(1.01);
+}

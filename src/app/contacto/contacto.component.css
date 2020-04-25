@@ -1,0 +1,54 @@
+#campanil{
+    width: auto;
+}
+
+.contact-wrapper{
+    background: white;
+    border-radius: 20px;
+}
+
+.input-simple{
+    background:none;
+    border:none;
+    border-bottom: #4007ba 1.5px solid;
+    text-align: center;
+    transition: all 0.1s;
+}
+
+.input-simple:focus{
+    outline:none;
+
+}
+.txtarea{
+    width: calc(100% - 45px);
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+    background: #F5F8FF;
+    border:none;
+}
+
+.boton{
+    background:#4007ba;
+    border:none;
+    border-bottom: #4007ba 1.5px solid;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+ }
+ 
+ :-ms-input-placeholder {  
+    text-align: center; 
+ }
+

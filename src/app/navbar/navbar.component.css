@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+.navbar{
+    font-family: 'Staatliches', cursive;
+    font-size: 14pt;
+    background: transparent;
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.5s; /* Transition effect when sliding down (and up) */
+    /*mix-blend-mode: /*color-burn multiply;*/
+    color: #663399;
+    z-index: 1000;
+}
+
+.nav-link{
+    color: #1a1a1a !important;
+    border-bottom:solid transparent 3px;
+    transition: all 0.2s cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+.nav-link:hover{
+    border-bottom:solid #4007BA 3px;
+}
+
+#brand{
+    fill: #f2f2f2;
+    width: 130px;
+}
+
+#toggler:active, 
+#toggler:focus {
+    border:0 !important; /* here configure as your needs */
+    outline: none;
+}
+#menu{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top:-100vh;
+    background:#4007BA;
+    z-index: 1000;
+    display:hidden;
+   
+}
+
+
+.activo{
+    border-bottom:solid #4007BA 3px;
+}

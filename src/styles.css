@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+.vertical-centro{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rakkas{
+    font-family: 'Rakkas', cursive;
+}
+
+::-moz-selection { background: #4007BA; color:white; }
+::selection { background: #4007BA; color:white; }
+
+.btn-primary{
+    background: #4007BA;
+    border:0px;
+    border-radius: 20px;
+}
+.btn-primary:active{
+    /*formatting goes here*/
+    background: #553C8B !important;
+    
+    }
+.btn-primary:hover{
+    /*formatting goes here*/
+    background:rgb(118, 58, 248);
+    }
+.btn-primary:focus{
+    /*formatting goes here*/
+    background:#7383EF;    
+    
+}
+
+.btn-primary:disabled{
+    /*formatting goes here*/
+    background:rgb(189, 189, 189);    
+    
+}
+
+.white{
+    color:white
+}

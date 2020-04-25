@@ -1,0 +1,31 @@
+h2{
+    font-size: 3em;
+    font-family: 'Rakkas', cursive;
+    color: #4007BA;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Rakkas', cursive;
+    color: #1a1a1a;
+}
+
+.card{
+    border-radius: 20px;
+    position:relative;
+}
+
+.row{
+    background: #fcfcfc;
+    
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 55px -28px rgba(0,0,0,0.35);
+-moz-box-shadow: 0px 0px 55px -28px rgba(0,0,0,0.35);
+box-shadow: 0px 0px 55px -28px rgba(0,0,0,0.35);
+}
+
+.body-text{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+

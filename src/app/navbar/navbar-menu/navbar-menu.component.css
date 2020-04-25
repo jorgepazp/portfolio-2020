@@ -1,0 +1,19 @@
+.container{
+    height: 100vh;
+}
+
+.row{
+    height: inherit;
+}
+
+.list{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    font-size: 3em;
+    color: #e2cdf6 !important;
+    font-family: 'Rakkas', cursive;
+}

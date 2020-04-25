@@ -1,0 +1,139 @@
+.card{
+    border-radius: 20px;
+    position:relative;
+}
+
+.card:hover{
+    background:red;
+
+}
+
+#figura{
+    z-index: 0;
+    position: absolute;
+    width: 40%;
+
+}
+
+.grid{
+    display:grid;
+    position:relative;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto ;
+    height: 600px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.item{
+    background:#4007ba;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: all 0.2s;
+}
+
+.item:hover{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
+.item:hover{
+    transform: translate(0,-5px);
+}
+
+#ex{
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background: red;
+}
+
+.proj-header{
+    position: absolute;
+    height:0;
+}
+
+.proj-wrapper{
+    position: relative;
+    
+}
+
+.prueba{
+    width: 125%;
+    position: absolute;
+    left: -25%;
+    margin-top:20%;
+}
+
+#metroconce{
+    grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 1;
+  background:linear-gradient(to bottom,#a095bc 0,#efb799 53%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a095bc', endColorstr='#efb799', GradientType=0 );
+}
+
+#behance{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.img-fix{
+    width: 100%;
+    position: absolute;
+
+}
+
+
+.item-wrapper{
+    position: relative;
+    top: 15%;
+    margin: 0 auto;
+}
+
+
+.box{
+    background-color: #4007ba;
+    border-radius: 25px;
+    
+    margin:5px;   
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    transition: all 0.2s;
+    text-decoration: none;
+    min-height: 244px;
+    overflow: hidden;
+}
+
+
+.box:hover{
+    transform: translate(0,-5px);
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+    text-decoration: none;
+    background-color: none;
+    
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: none;
+}
+
+#metro{
+    position: absolute;
+    width: 500px;
+    z-index: 0;   
+}
+
+#inner{
+    position: absolute;
+    z-index: 10;  
+}
